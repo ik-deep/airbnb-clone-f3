@@ -131,7 +131,7 @@ body{
 .hero{
     width: 86%;
     height: 400px;
-    background-image: url("assets/BigVilla.jpg");
+    background-image: url("assets/hero.jpg");
     margin-left: 6%;
     background-repeat: no-repeat;
     /* width: 400px; */
@@ -144,7 +144,29 @@ body{
   margin-top: 5px;
 
 }
+.hero1{
+  position: relative;
+  margin-left: 10%;
+}
+.hero1 img{
+    width: 92%;
 
+}
+.child-div{
+    position: absolute;
+    color: #fff;
+    top: 8%;
+    right: 65%;
+
+}
+.child-div div{
+    font-size: 84px;
+}
+.child-div button{
+    border-radius: 10px;
+    height: 39px;
+    width: 150px;
+}
 .recipe-card {
     border: 1px solid #ccc;
     /* padding: 20px; */
@@ -210,6 +232,7 @@ height: 40px;
     align-items: center;
     margin-top: 48px;
     margin-bottom: 48px;
+   
 }
 .recipe-card img {
     max-height: 205px;
@@ -229,4 +252,41 @@ height: 40px;
 }
 .nameDiv h2, .nameDiv p {
      margin: 0px;
+}
+
+
+.future-getway{
+    display: flex;
+    justify-content: flex-start;
+    gap: 30px;
+    align-items: center;
+}
+.future-getway-sec{
+    margin-left: 10%;
+
+}
+.future-sec{
+    width: 92%;
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items:start ;
+
+}
+.future-sec1{
+    display: flex;
+    justify-content: space-between;
+    align-items:start ;
+    flex-direction: column;
+
+
+}
+.future-sec1>div{
+    margin-bottom: 20px;
+}
+
+
+.future-sec p{
+    margin: 0px;
+    padding: 0px;
 }
