@@ -1,0 +1,232 @@
+body{
+    margin: 0%;
+    padding: 0%;
+    overflow-x: h;
+}
+.container{
+    width: 100vw;
+    /* height: 90vh; */
+    background-color: rgba(0, 0, 0, 1);
+    margin: 0%;
+    /* padding: 0px 20px 10px 20px; */
+    display: flex;
+    justify-content: center;
+    /* position: relatives; */
+    flex-direction: column;
+    /* align-items: center;s */
+}
+.navbar{
+    /* height: 176px; */
+    width: 100%;
+    padding-bottom: 20px;
+    /* background-color: aquamarine; */
+   
+} 
+.logo{
+  
+}
+.profile{
+    width: 4rem;
+    background: #fff;
+    border-radius: 20px;
+    padding-left: 13px;
+}
+.header-div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    padding: 20px;
+}
+.middle-head,.right-head{
+    display: flex;
+    justify-content: space-around;
+   
+}
+.middle-head{
+    margin: 18px 70px;
+    width: 38%;
+}
+
+.search-div{
+    width:60%;
+    background-color: #fff;
+    display: flex;
+    justify-content: space-between;
+    /* align-items: center; */
+    align-content: center;
+    color: rgb(0, 0, 0);
+    height: 62px;
+    border-radius: 32px;
+    border: 1px solid #dddddd;
+    box-shadow: 0 3px 12px 0 rgba(0,0,0,0.1), 0 1px 2px 0 rgba(0,0,0,0.08);
+   margin-left: 20%;
+}
+
+.search-div>div:hover{
+    background-color: lightgray;
+    border-radius: 32px;
+}
+/* Search form */
+.search {
+    display: flex;
+    flex-flow: row no-wrap;
+    justify-content: space-evenly;
+    background: white;
+  /*   height: 50px; */
+    border-radius: 50px;
+    overflow: hidden;
+    margin-left: 14%;
+    width: 70%;
+    padding-left: 26px;
+    align-items: center;
+  }
+  
+  .search .label {
+    display: block;
+    /* font-size: 0.75rem; */
+    color: #111111;
+    font-weight: bold;
+  }
+  
+  .search-inputs {
+  /*   flex: 1 0 auto; */
+  padding: 10px 0px;
+  }
+  
+  .search-inputs:nth-child(1) {
+    flex: 1.5 0 0%;
+  }
+  
+  .search-inputs:nth-child(2),
+  .search-inputs:nth-child(3){
+    flex: 1 0 0%;
+  }
+  
+  .search-inputs:nth-child(4){
+    flex: 0.85 0 0%;
+  }
+  
+  .search-inputs input {
+    border: none;
+    display: block;
+    outline: none;
+    padding: 5px;
+  }
+  
+  .search-button {
+    flex: 0 0 auto;
+    padding: 8px 8px 8px 0;
+  }
+  
+  .search-button button {
+    font-size: 16px;
+    width: 48px;  
+    height: 48px;
+    border-radius: 30px;
+    border: none;
+    background: red;
+    color: white;
+  }
+.hero{
+    width: 86%;
+    height: 400px;
+    background-image: url("assets/BigVilla.jpg");
+    margin-left: 6%;
+    background-repeat: no-repeat;
+    /* width: 400px; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  background-size: 100% 400px;
+  color: white;
+  margin-top: 5px;
+
+}
+
+.recipe-card {
+    border: 1px solid #ccc;
+    /* padding: 20px; */
+    margin: 10px;
+    width: 234px;
+    display: inline-block;
+    border-radius: 10px;
+    min-height: 330px;
+}
+.trip-card{
+    border: 1px solid #ccc;
+    /* padding: 20px; */
+    margin: 10px;
+    width: 43%;
+    border-radius: 10px;
+    min-height: 350px;
+    color: #fff;
+   
+}
+.trip-card1{
+    background-image: url("assets/exp1.png");
+    background-size: 100% 350px;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+    /* position: relative; */
+}
+.trip-card h1{
+    font-size: 30px;
+   
+}
+.trip-card button
+{
+height: 30px;
+border-radius: 5px;
+width: 150px;
+height: 40px;
+}
+.trip-card2{
+    background-image: url("assets/exp2.png");
+    background-size: 100% 350px;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.next-trip,.gift-card,.experience-trip{
+    margin-left: 10%;
+}
+.exp-trip{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.gift-card{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-top: 48px;
+    margin-bottom: 48px;
+}
+.recipe-card img {
+    max-height: 205px;
+    min-height: 205px;
+    width: 100%;
+    /* padding: 8px; */
+    object-fit: cover;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+}
+.recipe-card .nameDiv {
+    display: flex;
+     flex-direction: column;    
+    /* align-items: center; */
+    padding: 5px 10px;
+    color: #fff;
+}
+.nameDiv h2, .nameDiv p {
+     margin: 0px;
+}

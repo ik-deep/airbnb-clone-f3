@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="assets/airbnb-logo.png" type="image/x-icon">
+    <title>Holiday Homes & Apartment Rentals - Airbnb</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/
+    font-awesome/5.15.2/css/all.min.css" />
+ 
+</head>
+<body>
+    <div class="container">
+        <nav class="navbar">
+            <div class="header-div">
+                <div class="logo">
+                    <img src="assets/Vector.png" alt="logo" class="logo-img">
+                </div>
+                <div class="middle-head">
+                    <div>Places to stay</div>
+                    <div>Experiences</div>
+                    <div>Online Experiences</div>
+                </div>
+                <div class="right-head">
+                   <div style="    display: flex;
+                   margin-right: 10px;
+                   align-items: center;
+                   justify-content: space-around;
+               ">Become a Host <img src="assets/globe.png"></div>
+                   <div class="profile">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <g id="menu">
+                        <path id="Vector" d="M4.75 5.75H19.25" stroke="#111827" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                        <path id="Vector_2" d="M4.75 18.25H19.25" stroke="#111827" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                        <path id="Vector_3" d="M4.75 12H19.25" stroke="#111827" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                        </g>
+                        </svg>
+                        <svg width="32" height="32" viewBox="0 0 32 32" fill="gray" xmlns="http://www.w3.org/2000/svg">
+                            <g id="Icon">
+                            <mask id="mask0_3017_751" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="0" y="0" width="32" height="32">
+                            <circle id="Ellipse 1" cx="16" cy="16" r="16" fill="#F3F4F6"/>
+                            </mask>
+                            <g mask="url(#mask0_3017_751)">
+                            <path id="Profile Icon" d="M32 27.9918V32.0012H0V28.0065C1.86127 25.5191 4.27721 23.5003 7.05572 22.1106C9.83423 20.7209 12.8987 19.9986 16.0053 20.0012C22.544 20.0012 28.352 23.1398 32 27.9918ZM21.336 11.9998C21.336 13.4143 20.7741 14.7709 19.7739 15.7711C18.7737 16.7713 17.4172 17.3332 16.0027 17.3332C14.5882 17.3332 13.2316 16.7713 12.2314 15.7711C11.2312 14.7709 10.6693 13.4143 10.6693 11.9998C10.6693 10.5853 11.2312 9.22879 12.2314 8.2286C13.2316 7.22841 14.5882 6.6665 16.0027 6.6665C17.4172 6.6665 18.7737 7.22841 19.7739 8.2286C20.7741 9.22879 21.336 10.5853 21.336 11.9998Z" fill="#D1D5DB"/>
+                            </g>
+                            </g>
+                            </svg>
+   
+                   </div>
+                   
+                </div>
+            </div>
+         
+            <form class="search"> 
+                <div class="search-inputs">
+                  <label for="location"> 
+                    <div class="label">Location</div>
+                    <input name="location" id="location" placeholder="Where are you going?"/>
+                  </label>
+                  
+                </div>
+                <div class="search-inputs">
+                  <label for="check-in"> 
+                    <div class="label">Check in</div>
+                    <input name="check-in" id="check-in" placeholder="Add dates"/>
+                  </label>
+                </div>
+                <div class="search-inputs">
+                  <label for="check-out"> 
+                    <div class="label">Check out</div>
+                    <input name="check-out" id="check-out" placeholder="Add dates"/>
+                  </label>
+                </div>
+                <div class="search-inputs">
+                  <label for="guests"> 
+                    <div class="label">Guests</div>
+                    <input name="guests" id="guests" placeholder="Add dates"/>
+                  </label>
+                </div>
+                <div class="search-button">
+                  <button onclick="preventDefault()"><i class="fas fa-search fa-xs"></i></button>
+                </div>
+              </form>
+        </nav>
+        <div class="hero">
+            <!-- <img src="assets/BigVilla.jpg" alt="hero-img"> -->
+            <h1>Not sure where to go? Perfect.</h1>
+            <button type="button">I'm flexible</button>
+        </div>
+
+    </div>
+   
+    <section class="next-trip">
+        <h2>Inspiration for your next trip</h2>
+        <div class="recipe-card" style="background-color: rgb(247, 75, 75);">
+            <img src="assets/Scene1.png" >
+            <div class="nameDiv">
+                <h2>Veggie Delight</h2>
+                <p>53 miles away</p>
+            </div>
+        </div>
+        <div class="recipe-card" style="background-color: red;">
+            <img src="assets/Scene2.png" >
+            <div class="nameDiv">
+                <h2>South Haven</h2>
+                <p>168 miles away</p>
+            </div>
+        </div>
+        <div class="recipe-card" style="background-color: rgb(255, 94, 0);">
+            <img src="assets/Scene3.png">
+            <div class="nameDiv">
+                <h2>Stanton</h2>
+                <p>192 miles away</p>
+            </div>
+        </div>
+        <div class="recipe-card" style="background-color: red;">
+            <img src="assets/Scene4.png">
+            <div class="nameDiv">
+                <h2>New Buffalo</h2>
+                <p>130 miles away</p>
+            </div>
+        </div>
+    </section>
+    <section class="experience-trip">
+        <h2>Discover Airbnb Experiences</h2>
+        <div class="exp-trip">
+            <div class="trip-card trip-card1">
+                <!-- <img src="https://source.unsplash.com/random?veggies"> -->
+                <h1>Things to do <br>on your trip</h1>
+                <button type="button">Experiences</button>
+               
+            </div>
+            <div class="trip-card  trip-card2">
+                <h1>Things to do <br>from home</h1>
+                <button type="button">Online Experiences</button>
+                <!-- <img src="https://source.unsplash.com/random?veggies"> -->
+            </div>
+        </div>
+       
+       
+    </section>
+    <section class="gift-card">
+        <div>
+           <h2>Shop Airbnb gift cards</h2> 
+           <button type="button">Learn more</button>
+        </div>
+        <div>
+            <img src="assets/Gift Cards.png" alt="gift-card" style="    width: 94%;">
+        </div>
+    </section>
+    <section class="hero">
+        <!-- <img src="assets/BigVilla.jpg" alt="hero-img"> -->
+        <h1>Not sure where to go? Perfect.</h1>
+        <button type="button">I'm flexible</button>
+    </sections>
+    <script src="index.js"></script>
+
+</body>
+</html>
