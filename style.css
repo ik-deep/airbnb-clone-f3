@@ -5,7 +5,7 @@ body {
 }
 
 .container {
-    width: 100vw;
+    /* width: 100vw; */
     /* height: 90vh; */
     background-color: rgba(0, 0, 0, 1);
     margin: 0%;
@@ -19,13 +19,13 @@ body {
 
 .navbar {
     /* height: 176px; */
-    width: 100%;
+    width: 90%;
+    margin-left: 4%;
     padding-bottom: 20px;
     /* background-color: aquamarine; */
 
 }
 
-.logo {}
 
 .profile {
     width: 4rem;
@@ -53,6 +53,23 @@ body {
     margin: 18px 70px;
     width: 38%;
 }
+
+.middle-head div {
+    position: relative;
+    /* padding-bottom: 10px; */
+    box-sizing: border-box;
+}
+
+
+.middle-head div:hover #borderbottom {
+    box-sizing: border-box;
+    border-bottom: 2px solid #ffffff;
+    position: absolute;
+    left: 33%;
+    width: 30px;
+    bottom: -8px;
+}
+
 
 .search-div {
     width: 60%;
@@ -129,16 +146,16 @@ body {
 .search-button button {
     font-size: 16px;
     width: 48px;
+    background-image: url("assets/Icon Button Base.png");
     height: 48px;
     border-radius: 30px;
     border: none;
-    background: red;
     color: white;
 }
 
 .hero {
     width: 86%;
-    height: 400px;
+    height: 470px;
     background-image: url("assets/hero.jpg");
     margin-left: 6%;
     background-repeat: no-repeat;
@@ -150,13 +167,22 @@ body {
     background-size: 100% 400px;
     color: white;
     margin-top: 5px;
+    border-radius: 5px;
 
+}
+.hero h1 {
+    margin-top: 153px;
+}
+.hero button{
+    /* margin-top:20px; */
+    width: 101px;
+    height: 33px;
 }
 
 .hero1 {
     position: relative;
     margin-left: 10%;
-    margin-bottom:  100px;
+    margin-bottom: 100px;
 }
 
 .hero1 img {
@@ -253,8 +279,9 @@ body {
     display: flex;
     justify-content: flex-start;
     align-items: center;
-    margin-top: 48px;
-    margin-bottom: 48px;
+    margin-top: 6%;
+    margin-bottom: 8%;
+
 
 }
 
@@ -340,6 +367,6 @@ body {
     line-height: 25px;
 }
 
-ul li{
+ul li {
     margin-left: 20px;
 }
