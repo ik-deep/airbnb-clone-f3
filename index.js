@@ -16,7 +16,7 @@ window.addEventListener("DOMContentLoaded", () => {
     const guest = document.getElementById("guests").value;
 
     if (searchValue && startDate && endDate && guest && startDate <= endDate) {
-      window.location.href = "searchList.html";
+     
       const endPoint =
         "https://airbnb13.p.rapidapi.com/search-location?location=" +
         searchValue +
@@ -104,6 +104,7 @@ window.addEventListener("DOMContentLoaded", () => {
          
         })
       .then(err => console.error(err))
+      window.location.href = "searchList.html";
       return;
     }
 
