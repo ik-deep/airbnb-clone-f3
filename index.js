@@ -125,6 +125,8 @@ if(document.getElementsByClassName("main") && document.getElementsByClassName("m
 }
   let locations = [];
 
+
+
   const addDataIntoHTMl = () => {
     const cardContainer = document.getElementById("search-card");
     // const heading = document.getElementById("search-list-length");
@@ -200,7 +202,9 @@ if(document.getElementsByClassName("main") && document.getElementsByClassName("m
     });
   };
 
-  addDataIntoHTMl();
+  if(apiData && apiData.length){
+    addDataIntoHTMl();
+  }
 
   const map = L.map('map').setView([locations[0][1], locations[0][2]], 10);
   const mapLink = '<a href="http://openstreetmap.org">OpenStreetMap</a>';
