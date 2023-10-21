@@ -6,13 +6,13 @@
     <link rel="shortcut icon" href="assets/airbnb-logo.png" type="image/x-icon">
     <title>Holiday Homes & Apartment Rentals - Airbnb</title>
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/
-    font-awesome/5.15.2/css/all.min.css" />
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/
+    font-awesome/5.15.2/css/all.min.css" /> -->
  
 </head>
 <body>
-    <div class="container">
-        <nav class="navbar">
+   
+        <nav class="navbar-div">
             <div class="header-div">
                 <div class="logo">
                     <img src="assets/logo (3).png" alt="logo" class="logo-img">
@@ -52,44 +52,49 @@
                 </div>
             </div>
          
-            <form class="search"> 
+            <form class="search" action="#" method="get" id="form"> 
                 <div class="search-inputs">
                   <label for="location"> 
-                    <div class="label">Location</div>
+                    <div class="label">Location</div> </label>
                     <input name="location" id="location" placeholder="Where are you going?"/>
-                  </label>
+                 
                   
                 </div>
                 <div class="search-inputs">
                   <label for="check-in"> 
-                    <div class="label">Check in</div>
-                    <input name="check-in" id="check-in" placeholder="Add dates"/>
-                  </label>
+                    <div class="label">Check in</div>  </label>
+                    <input name="check-in" id="check-in"  onblur="(this.type='text')" onfocus="(this.type='date')" placeholder="Add dates"/>
+                
                 </div>
                 <div class="search-inputs">
                   <label for="check-out"> 
-                    <div class="label">Check out</div>
-                    <input name="check-out" id="check-out" placeholder="Add dates"/>
-                  </label>
+                    <div class="label">Check out</div>  </label>
+                    <input name="check-out" id="check-out"  onblur="(this.type='text')" onfocus="(this.type='date')" placeholder="Add dates"/>
+                
                 </div>
                 <div class="search-inputs">
                   <label for="guests"> 
-                    <div class="label">Guests</div>
-                    <input name="guests" id="guests" placeholder="Add dates"/>
-                  </label>
+                    <div class="label">Guests</div> </label>
+                    <input name="guests" id="guests" placeholder="Add guests"/>
+                 
                 </div>
                 <div class="search-button">
-                  <button onclick="preventDefault()"><i class="fas fa-search fa-xs"></i></button>
+                  <button  class="btn primary" type="submit"><i class="fas fa-search fa-xs"></i></button>
                 </div>
               </form>
         </nav>
-        <div class="hero">
-            <!-- <img src="assets/BigVilla.jpg" alt="hero-img"> -->
-            <h1>Not sure where to go? Perfect.</h1>
-            <button type="button">I'm flexible</button>
-        </div>
+      
+        <div class="container">
+            <div class="hero-main">
+                <div class="hero">
+                    <!-- <img src="assets/BigVilla.jpg" alt="hero-img"> -->
+                    <h1>Not sure where to go? Perfect.</h1>
+                    <button type="button">I'm flexible</button>
+                </div>
+            </div>
+      
 
-    </div>
+  
    
     <section class="next-trip">
         <h2>Inspiration for your next trip</h2>
@@ -302,9 +307,14 @@
             </ul>
           </div>
         </div>
-
+ 
   
     </footer>
+</div>
+<!-- <script src= 
+"https://maps.googleapis.com/maps/api/js?key=AIzaSyAhEgZc31lDcQuX2_Kr_iLhmIaBlQltX2k&callback=initMap&libraries=&v=weekly" 
+		async> 
+	</script>  -->
     <script src="index.js"></script>
 
 </body>

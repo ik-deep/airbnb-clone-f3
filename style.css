@@ -1,15 +1,14 @@
 body {
     margin: 0%;
     padding: 0%;
-    overflow-x: h;
+    position: relative;
 }
 
 .container {
-    /* width: 100vw; */
-    /* height: 90vh; */
-    background-color: rgba(0, 0, 0, 1);
+  /* display: none !important; */
+    /* background-color: rgba(0, 0, 0, 1); */
     margin: 0%;
-    /* padding: 0px 20px 10px 20px; */
+    padding: 178px 0px 0px 0px;
     display: flex;
     justify-content: center;
     /* position: relatives; */
@@ -17,12 +16,14 @@ body {
     /* align-items: center;s */
 }
 
-.navbar {
+.navbar-div {
     /* height: 176px; */
-    width: 90%;
-    margin-left: 4%;
+    width: 100%;
+    /* margin-left: 4%; */
     padding-bottom: 20px;
-    /* background-color: aquamarine; */
+    background-color: rgb(0, 0, 0);
+    position: fixed;
+    z-index: 999;
 
 }
 
@@ -32,6 +33,11 @@ body {
     background: #fff;
     border-radius: 20px;
     padding-left: 13px;
+    border: 1px solid lightgray
+
+}
+.profile:hover{
+    box-shadow: 1px 1px 3px black;
 }
 
 .header-div {
@@ -46,6 +52,7 @@ body {
 .right-head {
     display: flex;
     justify-content: space-around;
+    cursor: pointer;
 
 }
 
@@ -141,6 +148,7 @@ body {
 .search-button {
     flex: 0 0 auto;
     padding: 8px 8px 8px 0;
+  
 }
 
 .search-button button {
@@ -151,8 +159,12 @@ body {
     border-radius: 30px;
     border: none;
     color: white;
+    cursor: pointer;
 }
-
+.hero-main{
+    width: 100%;
+    background-color: black;
+}
 .hero {
     width: 86%;
     height: 470px;
